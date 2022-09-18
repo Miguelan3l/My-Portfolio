@@ -1,0 +1,15 @@
+header {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+nav {
+    float: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block
+}
