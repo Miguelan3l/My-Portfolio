@@ -1,28 +1,41 @@
-body {
+
+nav{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 80px;
     background-color: bisque;
     
 }
-header {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(187, 168, 144);
-    align-items: center;
-    display:flex;
-    justify-content: space-between;
-    color:white;
-    padding:1%;
-}
-h1 {
-    font-size: 50px;
-    
-}
-nav ul {
+
+h1 .name {
+    float: left;
+    height: 50%;
+    width: 30%;
     display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    
-}
-nav a {
-    color:white;
+    align-items: center;
+    color: black;
     
 }
 
+.nav-link {
+    float:right;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}   
+.nav-link li {
+    list-style: none;
+    
+}
+.nav-link a {
+    color: white;
+    ;
+}
