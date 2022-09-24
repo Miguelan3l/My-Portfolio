@@ -22,7 +22,7 @@ header h1 {
 .nav-links li, a {
     display: inline-flex;
     margin: 20px;
-    color: white;
+    color: black;
 }
 .hero img{
     height: 100px;
@@ -39,8 +39,35 @@ header h1 {
     right: 16px;
 }
 
-.contact-links li{
-    display: inline-flex;
-    background-color: rgb(218, 199, 175);
-    justify-content: space-between;
+.work-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}  
+.Horiseon{
+    min-height: 50px;
+    
+    
+}
+.Calendar{
+  min-height: 50px;
+ 
+
+}
+.Digital-Clock{
+   min-height: 50px;
+  
+
+}
+.QR-code{
+    min-height: 50px;
+   
+}
+.Dictionary{
+    min-height:50px;
+    
+
+    
 }
