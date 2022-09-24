@@ -5,6 +5,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+
 body{
     width: 100%;
 }
@@ -18,39 +19,27 @@ header h1 {
     color: white;
 
 }
-.nav-links li {
+.nav-links li, a {
     display: inline-flex;
-    margin: 30px;
-}
-li a {
+    margin: 20px;
     color: white;
 }
-li {
-    list-style: none;
-    
+.hero img{
+    height: 100px;
 }
 .hero {
-    display: flex;
-    height: 80px;
-    background-repeat:repeat;
-    background-position:center;
-    background-size: cover;
-    position: relative;
-   
-
+    position:absolute;
+    height: 50px;
+    width: 100%;
 }
 .hero-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: black;
+    position:absolute;
+    bottom: -25px;
+    right: 16px;
 }
-.about-me{
-    border-right: 10px;
-    display:inline;
-}
-.contact-links{
+
+.contact-links li{
     display: inline-flex;
     background-color: rgb(218, 199, 175);
     justify-content: space-between;
