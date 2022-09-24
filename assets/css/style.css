@@ -46,3 +46,12 @@ li {
     transform: translate(-50%, -50%);
     color: black;
 }
+.about-me{
+    border-right: 10px;
+    display:inline;
+}
+.contact-links{
+    display: inline-flex;
+    background-color: rgb(218, 199, 175);
+    justify-content: space-between;
+}
