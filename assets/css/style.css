@@ -2,28 +2,84 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
 body{
     width: 100%;
-}
-header {
-    background-color: rgb(218, 199, 175);
-    display: flex;
-    justify-content: space-between;
-}
-header h1 {
-    margin: 20px;
-    color: white;
+    background-color: rgb(237, 233, 229);
+
 
 }
-.nav-links li, a {
-    display: inline-flex;
-    margin: 20px;
+
+/*   NAVBAR CSS    */
+
+.subtitle{
+    font-size: 1.5rem;
+    color: antiquewhite;
+    
+}
+.container{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.container-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header{
+    background-color:  rgb(218, 199, 175);
+    padding: 0.8em 0;
+    box-shadow: 2px 2px 10px ;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    
+}
+
+
+nav li {
+
+    margin-left: 2em;
+    
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover{
     color: black;
 }
+
+@media (max-width: 640px) {
+    .container {
+        text-align: center;
+    }
+
+    .container-nav{
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+
+    }
+
+    nav li {
+        margin: 0.8em 0;
+    }
+}
+
+/* hero section  */
+
 .hero img{
     height: 100px;
 }
@@ -39,34 +95,68 @@ header h1 {
     right: 16px;
 }
 
+               /* flex box css */
+section.polariod{
+    width: 15%;
+    align-self: start;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-top: 65px;
+    padding-top: 20px;
+    
+}
+section img{
+    z-index: -100;
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+
+
+
+
+                                 /* flex box css */
 .work-container{
     display:flex;
     flex-direction: row;
+    align-items: flex-start;
     flex-wrap: wrap;
-    justify-content: center;
+    border-style: double;
+    justify-content: space-between;
+
+    
   
 }  
 .Horiseon{
-    min-height: 50px;
+    flex: 0;
+    width: fit-content;
     
     
 }
 .Calendar{
-  min-height: 50px;
+    flex: 0;
+    width: fit-content;
  
 
 }
 .Digital-Clock{
-   min-height: 50px;
+    flex: 0;
+    width: fit-content;
   
 
 }
 .QR-code{
-    min-height: 50px;
+    flex: 0;
+    width: fit-content;
    
 }
 .Dictionary{
-    min-height:50px;
+    flex: 0;
+    width: fit-content;
     
 
     
